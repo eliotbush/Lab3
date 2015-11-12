@@ -43,7 +43,7 @@ module lab3new
 				else
 				begin
 					output_store[counter] <= data_in;
-				    counter <= counter + 1;
+					counter <= counter + 1;
 					state <= READ;
 				end
 			//END just covers the stop bit so it eats one cycle and moves to IDLE
